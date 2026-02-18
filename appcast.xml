@@ -7,14 +7,14 @@
       <pubDate>Tue, 17 Feb 2026 17:40:22 -0800</pubDate>
       <sparkle:version>0.0.6</sparkle:version>
       <sparkle:shortVersionString>0.0.6</sparkle:shortVersionString>
-      <enclosure url='https://github.com/itsklimov/miwork-releases/releases/download/v0.0.6/MiWork.dmg' type='application/octet-stream' sparkle:edSignature='adT3Sn7sRjkcvmjb5pK326LpS96glARWBgSdRXU73x3j0w58493ynh8IGrF/dgNeX5CRjwIXMKemAUgVwCK4Bw==' length='9661361'/>
+      <enclosure url='https://github.com/itsklimov/mi-work/releases/download/v0.0.6/MiWork.dmg' type='application/octet-stream' sparkle:edSignature='adT3Sn7sRjkcvmjb5pK326LpS96glARWBgSdRXU73x3j0w58493ynh8IGrF/dgNeX5CRjwIXMKemAUgVwCK4Bw==' length='9661361'/>
     </item>
     <item>
       <title>Version 0.0.4</title>
       <pubDate>Wed, 12 Feb 2026 17:14:00 -0800</pubDate>
       <sparkle:version>0.0.4</sparkle:version>
       <sparkle:shortVersionString>0.0.4</sparkle:shortVersionString>
-      <enclosure url='https://github.com/itsklimov/miwork-releases/releases/download/v0.0.4/MiWork.dmg' type='application/octet-stream' sparkle:edSignature='xeVacT7iyM5C7F/YOdbm5A8MGJTqDpooO2N6BBClRFpEO9zNPGwwAixXXnHqI9UsThfd2jan26oLkq7TIkIOBw==' length='4688126'/>
+      <enclosure url='https://github.com/itsklimov/mi-work/releases/download/v0.0.4/MiWork.dmg' type='application/octet-stream' sparkle:edSignature='xeVacT7iyM5C7F/YOdbm5A8MGJTqDpooO2N6BBClRFpEO9zNPGwwAixXXnHqI9UsThfd2jan26oLkq7TIkIOBw==' length='4688126'/>
     </item>
   </channel>
 </rss>
