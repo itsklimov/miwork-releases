@@ -3,6 +3,13 @@
   <channel>
     <title>MiWork</title>
     <item>
+      <title>Version 0.0.14</title>
+      <pubDate>Thu, 26 Feb 2026 10:52:42 -0800</pubDate>
+      <sparkle:version>0.0.14</sparkle:version>
+      <sparkle:shortVersionString>0.0.14</sparkle:shortVersionString>
+      <enclosure url='https://github.com/itsklimov/mi-work/releases/download/v0.0.14/MiWork.dmg' type='application/octet-stream' sparkle:edSignature='/8J7wX/2bMEkJ5gNTsGwDS5zVApidDbdmnuYJdhQlN4jqyk6UTzvNc+WtmqlTUl0lzcvPeAylTjCr5RNQ6OFAg==' length='9814250'/>
+    </item>
+    <item>
       <title>Version 0.0.6</title>
       <pubDate>Tue, 17 Feb 2026 17:40:22 -0800</pubDate>
       <sparkle:version>0.0.6</sparkle:version>
