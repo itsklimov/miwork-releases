@@ -1,6 +1,18 @@
 # Mi Work
 
-A native macOS AI agent interface. Run multiple independent AI sessions in tabs, each with its own conversation context, tool access, and the ability to spawn parallel sub-agents for complex tasks.
+A native macOS AI agent workspace. Run multiple independent AI sessions in tabs, each with its own conversation context, tool access, and the ability to spawn parallel sub-agents for complex tasks.
+
+## Why It Matters
+
+- Native desktop interface for long-running agent work instead of a single browser chat
+- Parallel sub-agents and local tool access in the same session model
+- Public release surface for a production-shaped macOS AI product
+
+## Download
+
+Download the latest DMG from [Releases](https://github.com/itsklimov/mi-work/releases).
+
+The public repository currently ships release artifacts and product documentation rather than the full application source tree.
 
 ## What It Does
 
@@ -13,22 +25,30 @@ A native macOS AI agent interface. Run multiple independent AI sessions in tabs,
 
 ## Install
 
-Download the latest DMG from [Releases](https://github.com/itsklimov/mi-work/releases), open it, and drag Mi Work to Applications.
+Download the latest DMG from [Releases](https://github.com/itsklimov/mi-work/releases), open it, and drag Mi Work to `/Applications`.
 
 Auto-updates are built in via Sparkle — the app checks for new versions automatically.
 
 **Requirements:** macOS 15 (Sequoia) or later.
 
-## Setup
+## Quick Start
 
-On first launch, the app opens Settings to set up your Anthropic API key:
+1. Launch Mi Work from `/Applications`.
+2. On first launch, open Settings and connect an Anthropic API key.
+3. Create a new tab to start an isolated work session.
+4. Enable the tools you want that session to access.
+5. Use sub-agents when the task benefits from parallel execution.
+
+## API Key Setup
+
+Settings supports two setup paths:
 
 - **Sign In with Anthropic** — OAuth flow opens your browser, creates an API key automatically
 - **Manual entry** — paste an existing API key from [console.anthropic.com](https://console.anthropic.com)
 
 The key is stored securely in macOS Keychain.
 
-## Architecture
+## Architecture Highlights
 
 - **Native AppKit** — no Electron, no web views, built with Swift and AppKit
 - **Swift concurrency** — actors for isolation, structured concurrency for all async work
@@ -37,4 +57,4 @@ The key is stored securely in macOS Keychain.
 
 ## License
 
-Proprietary. All rights reserved.
+Proprietary. All rights reserved. See [LICENSE](LICENSE).
